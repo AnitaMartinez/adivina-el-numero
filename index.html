@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivina el número</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Adivina el número</h1>
+        </header>
+        <main class="main">
+            <label for="user-number">Introduce aquí tú número</label>
+            <input type="number" class="js-input input-number" placeholder="Introduce un número entre 1 y 100"
+                id="user-number" />
+            <button class="js-button button">Prueba</button>
+            <p class="js-message message-clue">
+                Pista: Escribe el número y dale a Prueba
+            </p>
+            <p class="js-counter">Número de intentos: 0</p>
+        </main>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
